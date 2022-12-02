@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Funcoes String/Funcoes String.iml" filepath="$PROJECT_DIR$/Funcoes String/Funcoes String.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrientacaoObjetos/OrientacaoObjetos.iml" filepath="$PROJECT_DIR$/OrientacaoObjetos/OrientacaoObjetos.iml" />
     </modules>
   </component>
 </project>
