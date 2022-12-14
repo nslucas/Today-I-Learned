@@ -3,6 +3,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        method2();
+
+        System.out.println("End of program!");
+
+    }
+    public static void method1(){
+        System.out.println("");
+    }
+
+    public static void method2(){
         Scanner sc = new Scanner(System.in);
 
         try {
@@ -17,7 +28,6 @@ public class Main {
             System.out.println("Input error!");
         }
 
-        System.out.println("End of program!");
         sc.close();
     }
 }
