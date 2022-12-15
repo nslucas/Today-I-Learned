@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GettingFilePathInfo.iml" filepath="$PROJECT_DIR$/GettingFilePathInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileWriter_BufferedWriter.iml" filepath="$PROJECT_DIR$/FileWriter_BufferedWriter.iml" />
     </modules>
   </component>
 </project>

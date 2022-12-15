@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10d24292-5c64-4277-9ab4-b55d111db693" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/StreamAnd_BufferedReaders.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/out/production/StreamAnd_BufferedReaders/application/application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamAnd_BufferedReaders/src/application/application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/Try-with-resources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/out/production/Try-with-resources/application/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Try-with-resources/src/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/WorkingWithFiles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/out/production/WorkingWithFiles/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WorkingWithFiles/src/Program.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Iv3aVWb0JYkObBW0Z4gvxEWFv5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10d24292-5c64-4277-9ab4-b55d111db693" name="Changes" comment="" />
+      <created>1671048294660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671048294660</updated>
+      <workItem from="1671048295879" duration="1393000" />
+      <workItem from="1671050142462" duration="95000" />
+      <workItem from="1671050702156" duration="454000" />
+      <workItem from="1671051172727" duration="847000" />
+      <workItem from="1671114107044" duration="657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
