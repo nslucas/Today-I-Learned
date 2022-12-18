@@ -34,13 +34,10 @@ public class Program {
 
         contractService.processContract(contract, n);
 
-
         System.out.println("PARCELAS: ");
         for (Installment installment : contract.getInstallments()) {
             System.out.println(installment);
-
         }
-
 
         sc.close();
     }

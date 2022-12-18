@@ -32,6 +32,7 @@ public class RentalService {
         this.pricePerday = pricePerday;
     }
 
+
     public void setTaxService(TaxService taxService) {
         this.taxService = taxService;
     }
