@@ -10,6 +10,7 @@ public class Program {
 
         List<String> myStrs = Arrays.asList("Maria", "Alex", "Bob");
         printList(myStrs);
+
     }
 
     public static void printList(List<?> list) {
