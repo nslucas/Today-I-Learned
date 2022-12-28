@@ -9,7 +9,7 @@ public class Main {
         set.add("Tv");
         set.add("Notebook");
         set.add("Tablet");
-        System.out.println(set.contains("Notebook"));
+        set.removeIf(x -> x.charAt(0) == 'T');
         for (String p : set) {
             System.out.println(p);
         }
