@@ -22,7 +22,6 @@ public class Program {
         double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'T');
 
         System.out.println("Sum = " + String.format("%.2f", sum));
-
-
+        
     }
 }
