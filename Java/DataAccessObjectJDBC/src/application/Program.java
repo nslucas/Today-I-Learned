@@ -1,7 +1,9 @@
 package application;
 
 import model.dao.DaoFactory;
+import model.dao.DepartmentDAO;
 import model.dao.SellerDAO;
+import model.dao.impl.DepartmentDaoJDBC;
 import model.entities.Department;
 import model.entities.Seller;
 
@@ -11,7 +13,6 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         SellerDAO sellerDao = DaoFactory.createSellerDAO();
@@ -53,5 +54,6 @@ public class Program {
         int id = sc.nextInt();
         sellerDao.deleteById(id);
         System.out.println("Delete completed!");
+
     }
 }
