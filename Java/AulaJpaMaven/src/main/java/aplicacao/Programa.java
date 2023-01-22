@@ -17,14 +17,18 @@ public class Programa {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("exemplo-jpa");
         EntityManager em = emf.createEntityManager();
 
-        em.getTransaction().begin();
+        /* em.getTransaction().begin();
         em.persist(p1);
         em.persist(p2);
         em.persist(p3);
-        em.getTransaction().commit();
+        em.getTransaction().commit(); */
 
+        /* if you wanna remove data from any table, you should first monitorate the data you want to remove using
+        * find method as seen below: */
+        em.getTransaction().begin();
         Pessoa p = em.find(Pessoa.class, 2);
-        System.out.println(p);
+        em.remove(p);
+        em.getTransaction().commit();
 
         System.out.println("Pronto!");
         em.close();
