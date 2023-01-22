@@ -6,7 +6,9 @@ import model.dao.DepartmentDAO;
 import model.entities.Department;
 import model.entities.Seller;
 
+import javax.xml.transform.Result;
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DepartmentDaoJDBC implements DepartmentDAO {
@@ -62,6 +64,20 @@ public class DepartmentDaoJDBC implements DepartmentDAO {
 
     @Override
     public void deleteById(Integer id) {
+        PreparedStatement st = null;
+
+        try{
+            st = conn.prepareStatement(
+                    "DELETE FROM department WHERE Id = ?",
+                    Statement.RETURN_GENERATED_KEYS);
+            st.setInt(1, id);
+            int rowsAffected = st.executeUpdate();
+            if(rowsAffected == 0) {
+                throw new DbException("This id does not exist!");
+            }
+        } catch (SQLException e){
+            throw new DbException("Error: " + e.getMessage());
+        }
 
     }
 
@@ -94,7 +110,30 @@ public class DepartmentDaoJDBC implements DepartmentDAO {
 
     @Override
     public List<Department> findAll() {
-        return null;
+        ResultSet rs = null;
+        PreparedStatement st = null;
+
+        try{
+            st = conn.prepareStatement(
+                    "SELECT * FROM department ORDER BY Name");
+            rs = st.executeQuery();
+
+            List<Department> list = new ArrayList<>();
+
+            while(rs.next()){
+                Department obj = new Department();
+                obj.setId(rs.getInt("Id"));
+                obj.setName(rs.getString("Name"));
+                list.add(obj);
+            }
+            return list;
+
+        } catch (SQLException e) {
+            throw new DbException("Error: " + e.getMessage());
+        } finally {
+            DB.closeStatement(st);
+            DB.closeResultSet(rs);
+        }
     }
 
 }
