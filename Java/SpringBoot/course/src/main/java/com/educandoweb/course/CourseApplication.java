@@ -11,5 +11,4 @@ public class CourseApplication {
 
         System.out.println("hello world! teste");
     }
-
 }
