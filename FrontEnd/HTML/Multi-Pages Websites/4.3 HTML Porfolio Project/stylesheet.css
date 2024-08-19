@@ -2,13 +2,16 @@ header {
   display: block;
   position: relative;
   margin: 30px;
-  padding: 30px 30px 30px 30px;
+  padding: 10px 30px 30px 3%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   height: 100px;
 }
 
 ul {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
   list-style-type: none;
   font-size: 20px;
   padding: 0;
